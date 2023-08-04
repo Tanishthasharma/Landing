@@ -1,0 +1,176 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav img {
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  
+  .hero {
+    background-image: url("ss2.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 20px;
+    color: #fff;
+  }
+  
+  .hero h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+  
+  .cta-button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  
+  #features {
+    padding: 80px 20px;
+    background-color: #f2f2f2;
+  }
+  
+  .feature-card {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .feature-card img {
+    height: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 16px;
+  }
+  
+  
+  #specs {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  #specs ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #specs li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  #pricing {
+    padding: 80px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .price-card {
+    display: inline-block;
+    margin: 0 20px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .price-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price-card p {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  
+  #contact {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  button[type="submit"] {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+  
